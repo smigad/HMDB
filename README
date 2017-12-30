@@ -1,0 +1,23 @@
+Instructions to be able to view the website with the right data. 
+
+1. Souce hmdb.sql from the DB folder into your mysql database
+2. Copy folder named hmdb_website to your /var/www/html folder. Give read and write permission to the folder as 
+   this is needed by the file_upload script
+3. open hmdb_website folder and find file named conn_DB.php. open the file with a text editor and modify the 
+   username and password parameters (set to 'root' and 'toor' by default) 
+   insert your mysql username and password on these fields
+4. within the hmdb_website folder, go to usr_mgmt folder and repeat step 3 for file conn_DB.php located there
+
+
+You can now use the website on your browser. For best effects, we recommend using Google Chrome. 
+
+To have administrator access to the website use 
+	Username : admin 
+	Password: admin
+	
+
+For a level 0 user account, use the signup form to create a new account.
+or u can also use the following account
+	Username: user
+	Password: user
+	

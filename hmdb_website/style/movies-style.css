@@ -1,0 +1,266 @@
+html,body,span,
+h2,h3,h4,h5,h6,
+p,a,font,img,ul,li
+
+{
+		
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	vertical-align:baseline
+
+}
+
+body
+{
+	font-family:"minion-pro-1","minion-pro-2","Times New Roman",serif;
+	line-height:1;
+	color: #000;
+}
+
+
+ h1 {
+	.font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #075900;
+	text-align: center;
+	margin: 0px;
+	text-shadow: 0 0.8px 0.1em black;
+	
+}
+
+
+
+
+header {
+	position: fixed;
+	z-index: 50;
+	width: 100%;
+	background-color: #E9E9E9;
+	margin-top: -50px;
+}
+
+
+
+
+#mainNav ul {
+	list-style-type: none;
+	text-decoration: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #484848;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+	box-shadow: 0 0.9px 0.3em black;
+	
+}
+
+#mainNav a {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: inherit;
+	text-align: center;
+	display: block;
+	float: left;
+	width: auto;
+	text-decoration: none;	
+	padding-top: 0.9%;
+	padding-bottom: 0.9%;
+	padding-right: 4%;
+	padding-left: 4%;
+	font-size: 14px;
+	
+}
+
+
+#mainNav a:hover, #mainNav a:active, #mainNav a:focus, #mainNav a.thispage {
+	background-color: #969696;
+	text-decoration: none;
+}
+
+
+div#thumbs-holder
+{
+	float:left;
+	margin-right:34px;
+	margin-top:20;
+	margin-left:232px;
+	padding-bottom:53px
+}
+
+div.pic-thumb
+{
+	width:250px;
+	height:300px;
+	overflow:hidden;
+	margin-right:12px;
+	margin-bottom:12px;
+	background:#262626;++
+	display:block;
+	float:left;
+	position:relative
+}
+
+.pic-thumb a:hover
+{
+		opacity: 0.7
+}
+
+
+#tit
+{
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+#rat
+{
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+
+.pic-thumb a
+{
+	width:250px;
+	height:300px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:13px;
+	text-transform:uppercase;
+	padding:0 10px;
+	line-height:20px;
+	letter-spacing:2px;
+	display:table-cell;
+	vertical-align:middle;
+	background-color:#101010;
+	opacity:0;
+	top:0;
+	left:0;
+	-webkit-transition:.5s cubic-bezier(0.25,0.1,0.25,1.0);
+	-moz-transition:.5s cubic-bezier(0.25,0.1,0.25,1.0);
+	-o-transition:.5s cubic-bezier(0.25,0.1,0.25,1.0);
+	-ms-transition:.5s cubic-bezier(0.25,0.1,0.25,1.0);
+	transition:.5s cubic-bezier(0.25,0.1,0.25,1.0);
+	position:relative;
+	z-index:1
+}
+
+.pic-thumb a span
+{
+	font:10px/15px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	margin-top:15px;
+	display:block
+}
+.pic-thumb img
+{
+	position:absolute;
+	top:0;
+	z-index:0;
+	display:none;
+	left:0
+}
+
+
+ul#subnav
+{
+		position:fixed;
+	top:0;
+	left:0;
+	display:block;
+	margin-top:100px;
+	margin-left:40px;
+	background-color: inherit;
+}
+
+	ul#subnav a
+{
+	color:#4b4b4b;
+	text-decoration:none;
+	line-height:23px;
+	padding-left:22px;
+	display:block;
+	font-size:13px;
+	letter-spacing:0
+}
+
+
+#subnav h4
+{
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font:10px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	margin-bottom:7px;
+	margin-left:22px;
+}
+
+#subnav a:hover,#subnav a#active-category,#subnav h4
+{
+		color:#591919
+}
+
+
+
+
+
+	ol,ul
+{
+		list-style:none
+}
+
+	body
+{
+		height:100%;
+	margin:0;
+	padding:50px 0 0;
+	background:#dedede url(../images/common/bg_gradient.png) repeat-x left top
+}
+
+
+
+
+	html
+{
+		-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none
+}
+	
+
+
+.loginbtn {
+    background: #57A82A;
+    /*border: medium none;*/
+    color: #FFF;
+    padding: 10px;
+    box-shadow: 2px 3px 0px 0px #4B9224;
+    /*border-radius: 2px;*/
+    line-height: 0px;
+    float: right;
+}
+.loginbtn:hover
+{
+    background: #77C844;
+    color: #484949;
